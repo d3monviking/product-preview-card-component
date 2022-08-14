@@ -1,0 +1,82 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  hsl(30, 38%, 92%);
+}
+
+.hero-image{
+    width: 100%;
+}
+
+.card{
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    height: 475px;
+    color:  hsl(228, 12%, 48%);
+    overflow: hidden;
+    margin: 150px auto;
+}
+
+h1 {
+    color: black;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+.container > *{
+    margin: 10px 0;
+}
+
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", sans-serif;
+}
+
+
+strike {
+    padding-left: 17px;
+    padding-top: 5%;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 12px;
+    width: 100%;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover{
+    opacity: 0.8;
+}
